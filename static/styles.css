@@ -1,0 +1,81 @@
+.center
+{
+    text-align: center;
+}
+
+.nospace 
+{ 
+    margin: 0;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+a
+{
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #A8D0E6;
+}
+
+.navbar-nav > li a:hover {
+    color: #A8D0E6;
+}
+
+.navbar-nav > li > .dropdown-menu a:active{
+    background-color: #A8D0E6;  
+}
+
+body {
+    background-color: #A8D0E6;
+    margin-top: 50px;
+    /*margin: 50px 80px 80px 80px;*/
+    /*margin: 3vw 1vw 2vw 1vw;*/
+}
+
+
+nav .navbar-brand {
+     /*size for brand */
+    font-size: x-large;
+}
+
+nav {
+    margin: 0;
+}
+
+main .form-control {
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main {
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img {
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+@-ms-viewport{
+    width: device-width;
+}
